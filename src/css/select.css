@@ -1,0 +1,33 @@
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cfcfcf; /* Blue color for the button */
+    color: #000000; /* White text color */
+    cursor: pointer;
+    width: 350px; /* Set a fixed width */
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.custom-button:hover {
+    background-color: #838383; /* Darker blue color on hover */
+}
+
+#video-input {
+    display: none; /* Hide the file input element */
+}
+
+.drop-area {
+    border: 2px dashed #007bff; /* Blue dashed border for drop area */
+    padding: 10px; /* Adjust the padding to change height and width */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.drop-area p {
+    font-size: 16px;
+    color: #333;
+}
